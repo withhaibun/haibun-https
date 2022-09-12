@@ -1,6 +1,6 @@
 import { testWithDefaults } from '@haibun/core/build/lib/test/lib';
 
-import https from './https-stepper';
+import https from './https-certificate-stepper';
 
 describe('https test', () => {
   it('is valid', async () => {
@@ -18,7 +18,7 @@ describe('https test', () => {
     const result = await testWithDefaults([feature], [https]);
     expect(result.ok).toBe(false);
   });
-  it('is valid for enough days', async () => {
+  it('is not valid for enough days', async () => {
     const feature = { path: '/features/test.feature', content: `certificate for github.com is valid for more than 999999 days` };
     const result = await testWithDefaults([feature], [https]);
     expect(result.ok).toBe(false);
