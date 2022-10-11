@@ -10,7 +10,7 @@
     "ssl-checker": "^2.0.7"
   },
   "name": "@haibun/https",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "test https, renew letsencrypt certs with greenlock",
   "main": "build/https-stepper.js",
   "devDependencies": {
