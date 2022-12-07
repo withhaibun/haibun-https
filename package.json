@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@haibun/core": "1.11.1",
+    "@haibun/core": "1.11.0",
     "@root/acme": "^3.1.0",
     "acme-dns-01-cloudflare": "^1.2.5",
     "acme-http-01-webroot": "^3.0.0",
@@ -10,7 +10,7 @@
     "ssl-checker": "^2.0.7"
   },
   "name": "@haibun/https",
-  "version": "1.11.1",
+  "version": "1.11.0",
   "description": "test https, renew letsencrypt certs with greenlock",
   "main": "build/https-stepper.js",
   "devDependencies": {
