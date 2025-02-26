@@ -3,4 +3,5 @@ store
 .env
 .greenlockrc
 build
+tsconfig.tsbuildinfo
 
